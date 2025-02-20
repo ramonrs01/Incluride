@@ -1,0 +1,70 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+
+#menu{
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: right;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+
+
+#cod,#txt{
+    width: 50%;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #719267;
+    border-radius: 5px;
+}
+form{
+    width: 100%;
+
+}
+fieldset {
+    border: none; /* Remove a borda padrão */
+    border-radius: 8px; /* Borda arredondada */
+    border: 3px solid blue; /* Nova borda que você deseja */
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0;
+}
+
+legend{
+    font-size: xx-large;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #45a049;
+}
+li{
+    display: inline;
+}
+a{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
